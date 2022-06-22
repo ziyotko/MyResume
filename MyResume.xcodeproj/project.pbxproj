@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A913053286369DC0024CBBA /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A913052286369DC0024CBBA /* Constant.swift */; };
+		9A9130552863779E0024CBBA /* DotLineShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9130542863779E0024CBBA /* DotLineShape.swift */; };
 		9A918961286362DF00BA0909 /* MyResumeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A918960286362DF00BA0909 /* MyResumeApp.swift */; };
 		9A918963286362DF00BA0909 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A918962286362DF00BA0909 /* ContentView.swift */; };
 		9A918965286362E600BA0909 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A918964286362E600BA0909 /* Assets.xcassets */; };
@@ -14,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9A913052286369DC0024CBBA /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		9A9130542863779E0024CBBA /* DotLineShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DotLineShape.swift; sourceTree = "<group>"; };
 		9A91895D286362DF00BA0909 /* MyResume.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyResume.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A918960286362DF00BA0909 /* MyResumeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyResumeApp.swift; sourceTree = "<group>"; };
 		9A918962286362DF00BA0909 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -51,10 +55,12 @@
 		9A91895F286362DF00BA0909 /* MyResume */ = {
 			isa = PBXGroup;
 			children = (
+				9A913052286369DC0024CBBA /* Constant.swift */,
 				9A918960286362DF00BA0909 /* MyResumeApp.swift */,
 				9A918962286362DF00BA0909 /* ContentView.swift */,
 				9A918964286362E600BA0909 /* Assets.xcassets */,
 				9A918966286362E600BA0909 /* Preview Content */,
+				9A9130542863779E0024CBBA /* DotLineShape.swift */,
 			);
 			path = MyResume;
 			sourceTree = "<group>";
@@ -138,7 +144,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A918963286362DF00BA0909 /* ContentView.swift in Sources */,
+				9A9130552863779E0024CBBA /* DotLineShape.swift in Sources */,
 				9A918961286362DF00BA0909 /* MyResumeApp.swift in Sources */,
+				9A913053286369DC0024CBBA /* Constant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
