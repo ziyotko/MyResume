@@ -33,13 +33,13 @@
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>com.xxxx.demo</string>
+				<string>cn.cmif.oa2</string>
 				<key>bundle-version</key>
-				<string>1.0.0</string>
+				<string>1.0.4</string>
 				<key>kind</key>
 				<string>software</string>
 				<key>title</key>
-				<string>XXXX App download</string>
+				<string>中机联办公系统</string>
 			</dict>
 		</dict>
 	</array>
